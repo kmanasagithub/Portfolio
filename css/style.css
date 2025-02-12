@@ -22,7 +22,8 @@ html{
 }
 
 body{
-    color:var(--white-color)
+    color:var(--white-color);
+    background: var(--bg-color);
 }
 
 header{
@@ -591,11 +592,11 @@ section.active{
     margin-right: 1.5rem;
 }
 
-.portfolio-box .live-github a:first-child{
+/* .portfolio-box .live-github a:first-child i{
     transform: rotate(135deg);
-}
+} */
 
-.portfolio-box .live-github a i span{
+.portfolio-box .live-github a span{
     position: absolute;
     top:-60%;
     left: 50%;
@@ -611,7 +612,7 @@ section.active{
     transition: .2s;
 }
 
-.portfolio-box .live-github a:hover i span{
+.portfolio-box .live-github a:hover span{
     top:-70%;
     opacity: 1;
     transform: translateX(-50%) scale(1);
